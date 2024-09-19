@@ -1,0 +1,26 @@
+
+
+            ----------------- react-dom (browser)
+            |
+react -------
+            |--------------- react-native (native apps)
+
+------------------------------
+
+npx create-react-app <app_name>
+
+    App.js, index.js
+npm start     or npm run start
+
+
+
+before deploying: npm run build (the build folder is deployed and not the src)
+
+the above way of creating react apps is bulkier, therefore most of the times, we use bundlers such as vite or parcel
+
+--------------
+npm create vite@latest <app_name>
+
+
+npm install
+npm run dev
